@@ -20,7 +20,7 @@ public class main7 {
 
         double average = (n1 + n2 + n3) / 3;
 
-        System.out.println(average);
+        System.out.println("The average value is " + average);
 
     }
 
