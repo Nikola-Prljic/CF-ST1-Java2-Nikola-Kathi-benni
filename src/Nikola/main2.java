@@ -23,6 +23,15 @@ public class main2 {
         System.out.println(Java.contains(is));
 
         // #3
+        //Coding is fun: ends with: un? true
+
+        //Coding is fnu: ends with: un? false
+        String Coding = "Coding is fun";
+        String ends = ": ends with: un? ";
+        System.out.println(Coding+ ends + Coding.endsWith("un"));
+        String Coding2 = Coding.replaceAll("fun", "fnu");
+        System.out.println(Coding2 + ends + Coding2.endsWith("un"));
+
 
 
 
