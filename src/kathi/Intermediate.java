@@ -55,7 +55,7 @@ public class Intermediate {
         //Coding is fnu: ends with: un? false
         String funOne = "Coding is fun";
         String funTwo = "Coding is fnu";
-        String end = ": ends with: ";
+        String end = ": ends with: un? ";
         boolean codingOne = funOne.endsWith("un");
         boolean codingTwo = funTwo.endsWith("un");
         System.out.println(funOne + end + codingOne);
