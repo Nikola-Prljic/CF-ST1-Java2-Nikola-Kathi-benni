@@ -8,9 +8,6 @@ public class AdvancedString {
         //JD
 
         String myName = "Kathrin Schey";
-        String[] initials = myName.split(" ");
-        String fName = initials[0];
-        String lName = initials[1];
-        String first = fName.getChars(0, 0);
+        System.out.println("Initials: " + myName.charAt(0) + myName.charAt(8));
     }
 }
