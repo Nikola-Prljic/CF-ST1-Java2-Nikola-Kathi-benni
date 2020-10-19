@@ -15,9 +15,9 @@ public class Task1 {
         //A: e
 
         //3. Write an expression that refers to the letter b in the string referred to by hannah.
-        hannah.codePointAt(15);
-        hannah.toCharArray();
-        //hannah.copyValueOf();
+        int expression = hannah.indexOf("b");
+        System.out.println("the refers to the letter is: " + expression);
+
 
         //4. Write a Java program to get the character at the given index within the String.
         String getCharacter = "Java is great!";
