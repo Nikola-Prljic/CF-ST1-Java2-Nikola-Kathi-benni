@@ -49,5 +49,17 @@ public class Intermediate {
         System.out.println("Specified values of char sequence: is");
         System.out.println(s.contains(s2));
 
+        //3) Write a Java program to check whether a given string ends with the contents of another string.
+        //Sample:
+        //Coding is fun: ends with: un? true
+        //Coding is fnu: ends with: un? false
+        String funOne = "Coding is fun";
+        String funTwo = "Coding is fnu";
+        String end = ": ends with: ";
+        boolean codingOne = funOne.endsWith("un");
+        boolean codingTwo = funTwo.endsWith("un");
+        System.out.println(funOne + end + codingOne);
+        System.out.println(funTwo + end + codingTwo);
+
     }
 }
