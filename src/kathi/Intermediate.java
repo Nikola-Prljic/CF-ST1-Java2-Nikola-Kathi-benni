@@ -1,5 +1,6 @@
 package kathi;
 
+
 public class Intermediate {
 
     public  static void main(String[]args){
@@ -36,6 +37,17 @@ public class Intermediate {
         System.out.println(three);
         System.out.println(one);
         System.out.println(two);
+
+        //2) Write a Java program to test if a given string contains the given sequence of char values.
+        //Sample:
+        //String: Java is Juicy
+        //Specified values of char sequence: is
+        //Output: true
+        String s = "Java is Juicy";
+        String s2 = "is";
+        System.out.println(s);
+        System.out.println("Specified values of char sequence: is");
+        System.out.println(s.contains(s2));
 
     }
 }
