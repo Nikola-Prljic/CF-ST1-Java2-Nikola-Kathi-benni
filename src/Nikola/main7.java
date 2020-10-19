@@ -11,10 +11,13 @@ public class main7 {
     //The average value is 45.0
     public static void calc2(){
         Scanner SCA = new Scanner(System.in);
+
         System.out.print("Enter number 1 : ");
         double n1 = SCA.nextDouble();
+
         System.out.print("Enter number 2 : ");
         double n2 = SCA.nextDouble();
+
         System.out.print("Enter number 3 : ");
         double n3 = SCA.nextDouble();
 
